@@ -1,0 +1,19 @@
+.interactive {
+  text-align: center;
+  width: 30px;
+
+  &__btn {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+
+    &--delete {
+      background-color: rgb(251, 76, 76);
+    }
+
+    &--edit {
+      background-color: rgb(64, 161, 245);
+    }
+  }
+}

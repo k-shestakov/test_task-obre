@@ -1,0 +1,21 @@
+.add-customer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+
+  &__btn {
+    width: 200px;
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: rgb(14, 14, 14);
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: rgb(38, 38, 38);
+    }
+  }
+}

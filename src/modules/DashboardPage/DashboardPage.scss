@@ -1,0 +1,23 @@
+.filter {
+  display: flex;
+  gap: 15px;
+  padding-block: 15px;
+
+  &__btn {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    padding: 5px;
+    border: 1px rgb(83, 83, 83) solid;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: rgb(240, 240, 240);
+    }
+
+    &.active {
+      color: #fff;
+      background-color: rgb(23, 23, 23);
+    }
+  }
+}

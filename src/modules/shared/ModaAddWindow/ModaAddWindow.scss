@@ -1,0 +1,81 @@
+.modal-add {
+  position: fixed;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 10;
+  background-color: #fff;
+  padding: 25px;
+  width: 50%;
+
+  &__form {
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  &__inner {
+    width: 100%;
+
+    & input {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  &__interactions {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    height: 30px;
+  }
+
+  &__btn {
+    text-transform: uppercase;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+    &--cancel {
+      &:hover {
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: rgb(211, 211, 211);
+        }
+      }
+    }
+
+    &--add {
+      background-color: rgb(14, 14, 14);
+      color: #fff;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: rgb(36, 36, 36);
+      }
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(247, 99, 99);
+    color: #fff;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transform: translateY(-100%);
+  }
+}

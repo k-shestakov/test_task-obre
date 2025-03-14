@@ -1,0 +1,32 @@
+{
+  "customers": [
+    {
+      "id": "5af6",
+      "fullName": "Kostiantyn Shestakov",
+      "address": "Lviv",
+      "email": "exp@gmail.com",
+      "phone": 234234
+    },
+    {
+      "id": "a3e4",
+      "fullName": "Another One",
+      "address": "New York",
+      "email": "exp@gmail.com",
+      "phone": 234234234
+    },
+    {
+      "id": "6171",
+      "fullName": "Last One",
+      "address": "London",
+      "email": "exp@gmail.com",
+      "phone": 234234234
+    },
+    {
+      "id": "9531",
+      "fullName": "ABC",
+      "address": "lviv",
+      "email": "ex@gmail.com",
+      "phone": 234234
+    }
+  ]
+}
